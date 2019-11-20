@@ -16,15 +16,14 @@
            <v-btn text>Link 3</v-btn>
          </v-toolbar-items>
        </template>
-
-       <v-toolbar-title
-       >Sistema Integral de Servicio Social</v-toolbar-title>
-
+<img src="../assets/uabc.png" width="70" height="93" class="posicion" >
+       <v-toolbar-title>
+       <center><font size="2"><b>Universidad Autónoma de Baja California<br>Coordinación de Formación Básica<br>Coordinación de Formación Profesional y Vinculación Universitaria<br>Sistema Integral de Servicio Social</b></font></center></v-toolbar-title>
        <v-spacer></v-spacer>
 
        <v-toolbar-items>
          <v-btn text>Taller de Inducción</v-btn>
-         <v-btn text router to="/programa">Programas de Servicio Social</v-btn>
+         <v-btn text router to="/estadoAlumno">Programas de Servicio Social</v-btn>
          <v-btn text>Configuración</v-btn>
        </v-toolbar-items>
 
@@ -55,5 +54,8 @@
 <style>
   .change-font {
     font-family: "Arial", Helvetica, sans-serif;
+  }
+  .posicion{
+    margin-top: 50px;
   }
 </style>
